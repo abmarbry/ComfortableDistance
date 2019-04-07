@@ -1,0 +1,28 @@
+*{
+    font-family: Verdana;
+}
+
+.padding{
+    padding: 6rem;
+    line-height: 2rem;
+}
+
+.title{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+}
+.subtitle{
+	padding-top: 1rem;
+	padding-bottom: 5rem;
+	font-size: 1rem;
+}
+
+.choice{
+	color: teal;
+	font-weight: bold;
+}
+
+.choice:hover{
+	color: navy;
+}
