@@ -26,7 +26,7 @@
 				"returnValue": false,
 				"options": {
 					"false": "\"Sorry, Grace. The answer is no.\"",
-					"true": "\"You’re disgusting.\" Her jaw dropped. I could see tears coming to her eyes, and, though her mouth moved as if to say something, she couldn’t manage a sound."
+					"true": "\"You’re disgusting,\" I said. Her jaw dropped. I could see tears coming to her eyes, and, though her mouth moved as if to say something, she couldn’t manage a sound."
 				}
 			},{
 				"id": "lied",
