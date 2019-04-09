@@ -21,7 +21,7 @@ Locator.prototype.formatPathData = function(data){
 }
 
 function Locator(){
-	this.BASE_FILE = "Game_Content/"
+	this.BASE_FILE = "/ComfortableDistance/Game_Content/"
 }
 
 
