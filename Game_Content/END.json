@@ -15,6 +15,22 @@
 				"nextScene" : "",
 				"nextAct" : "",
 				"consequences": {}
+		},{
+				"id": "1",
+				"name": "Go to when Cameron picks up the monologue",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "210",
+				"nextScene" : "Scene_2",
+				"nextAct" : "One_Act",
+				"consequences": {}
+		},{
+				"id": "2",
+				"name": "Go to after Cameron reads the monologue",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "219",
+				"nextScene" : "Scene_2",
+				"nextAct" : "One_Act",
+				"consequences": {}
 		}]
 	},
 	"variables": {

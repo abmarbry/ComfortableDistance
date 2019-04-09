@@ -54,7 +54,7 @@ var handleChoice = function(index){
 	}
 	else{
 		//TO DO LATER: do something different if there's a save state implemented
-		processor.clearState();
+		//processor.clearState();
 		pathWithoutExtension = choiceParameters.next.nextSnippet
 	}
 	
