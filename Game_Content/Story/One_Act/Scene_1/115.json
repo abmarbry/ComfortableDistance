@@ -1,0 +1,68 @@
+{
+	"body": [
+		"I craned my neck around from the window to the library entrance. An old man in a Hawaiian shirt slipped in from the glass-door entrance, but besides that it was empty. I glanced at the clock in the corner of my computer. 8:30pm. Grace wasn’t here yet.",
+		"We’d been friends since <CHOICE(A)> but I wanted to get the meeting <CHOICE(B)> with. It had been so long since we hung out, and she’d want to know <CHOICE(C)> to me since we’d last spoken. We’d signed up for the same Intro to Theatre class, me sitting in the back and her in the front. It made sense: I wanted an easy class, and she wanted to begin her journey of a Very Serious Theatre Major. This would be the first time we’d really talked with each other; we’d been brought together, of all things, by a peer-review our  monologues.",
+		"Oh, God, the monologue. I sharpened my vision back down at my computer and changed tabs to the steaming pile of garbage I’d produced. I couldn’t write to save my life. I used words like fancy colleges used rejection letters: they were disappointing and sometimes made people cry. I couldn’t even bear to read a <CHOICE(D)> of what I’d written, and now Grace had to give me feedback.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "A",
+				"name": "middle school,",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115A",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "B",
+				"name": "over",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115B",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "C",
+				"name": "everything that had happened",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115C",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "D",
+				"name": "line",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115D",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "0",
+				"name": "\"Cameron?\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "116",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"body": [
+		"I couldn’t help but be a little flattered. The person who had known me longer than anyone else in the area was apparently in love with me. That must have said something good about me, right?",
+		"I took in a deep sigh, looking up at the ceiling as I thought about us and--No. No not at all please no. Especially not if this was how she wanted to ask me out... I guess I wasn't used to being the one getting the attention.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "Back.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "214",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+					"readAny": "true"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"body": [
+		"Though the place was officially called Shubert Library, I called it the Bert, or Shu-shu (sometimes prefaced by \"chuga chuga\").",
+		"It was actually in pretty good shape after some wealthy donors seemingly dumped a truck load of money into it. Everything's glass and cabin-y wood now, but they didn't bother to add any more seating for the couple thousand students who finally think the place was worthy enough to study at. All of the group rooms are squatted by Greek study groups now, but I snatched a pretty nice small table just as someone else was leaving.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "111",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

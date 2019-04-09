@@ -1,0 +1,44 @@
+{
+	"body": [
+		"<VARIABLE(response)>",
+		"Immediately after I spoke, I saw the tears well in her eyes. As her face reddened, she covered her mouth like it would somehow stop the embarrassment. She started breathing shakily, but her face twisted as though she was gaining the courage to speak. When she finally found it, she said, \"You’re a bad person.\"",
+		"I couldn’t help but laugh, \"I’m a bad person? You trapped me by having me review your delusional love note for class.\"",
+		"\"I bared my heart to you! I--I was trying to get it out of my system!\" She pleaded, \"I don’t feel like that now.\"",
+		"I shot a cold glare at her, crossing my arms as though her lie would crumble under scrutiny. She repeated, \"I don’t!\"",
+		"\"What are you going to do?\" I asked, \"Read that in front of the class?\"",
+		"\"How else am I supposed to talk to you?!\" She stood up, half-heartedly slamming her hands down on the table, \"You never respond when I ask to hang out, we barely talk during class, and I wasn’t about to send you some heartless text message. I--I just want you to know that I care about you, and I’d hope that you care about me--\"",
+		"\"I don’t,\" I pushed her monologue back towards her, \"Not enough to deal with this.\"",
+		"She was speechless, unable to keep tears from leaking out as snot rolled down to her lips. It was like she was desperately holding back a dam, and, the second that her silence broke in a sob, she pushed away from the table and left.",
+		"I didn't bother to watch her <CHOICE(0)>"
+
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "go.",
+				"toOutsideSnippet": true,
+				"nextSnippet": "END",
+				"nextScene": "",
+				"nextAct": "",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "response",
+				"returnValue": false,
+				"options": {
+					"A": "\"What the fuck is wrong with you?\"",
+					"B": "\"Oh. It seems like you do know what you did was stupid.\"",
+					"C": "\"Good for you, you fucking creep.\"",
+					"D": "\"You're delusional.\""
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"body": [
+		"\"I’ll take an Earl Grey.\"",
+		"\"One Earl Grey. What size?\"",
+		"\"I don’t know. Large. I have some spare cash if you--\"",
+		"\"Don’t worry about it.\" She was already turning around, but her voice caught on word ‘worry.’ Before I had a chance to say another word, she was gone.",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "What was up with her?",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "210",
+				"nextScene" : "Scene_2",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

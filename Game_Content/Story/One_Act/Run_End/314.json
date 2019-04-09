@@ -1,0 +1,48 @@
+{
+	"body": [
+		"<VARIABLE(savage)>",
+		"<VARIABLE(lied)>",
+		"I clenched my teeth and envisioned a future where I was talking to her, discovering where the truth was supposed to be, piecing her mess back together until we could both pretend it didn’t happen. That was I should do: make the gentler of the two mistakes. But, I wasn’t made for this kind of attention. It wasn’t my job to help her. That close to freedom, I couldn’t begin trying to <CHOICE(0)> myself"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "explain",
+				"toOutsideSnippet": false,
+				"nextSnippet": "315",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "savage",
+				"returnValue": false,
+				"options": {
+					"false": "\"Sorry, Grace. The answer is no.\"",
+					"true": "\"You’re disgusting.\" Her jaw dropped. I could see tears coming to her eyes, and, though her mouth moved as if to say something, she couldn’t manage a sound."
+				}
+			},{
+				"id": "lied",
+				"returnValue": false,
+				"options": {
+					"true": "\"I thought you said you'd already read it,\" Her entire body tensed up, shoulders pinched as her eyes shot into the space beside me and her voice went thick with disappointment, <VARIABLE(saidLiked)>",
+					"false": "\"I--\" Grace pursed her lips, her voice thick with disappointment and trying to keep her chin from shaking. She might as well have been sentenced to life in prison, \"C--Can we talk about it?\""
+				}
+			},{
+				"id": "saidLiked",
+				"returnValue": false,
+				"options": {
+					"true": "\"I thought you said you liked it!\"",
+					"false": "\"I know it wasn't perfect, but--but you can't just go!\""
+				}
+			}
+		]
+	}
+}

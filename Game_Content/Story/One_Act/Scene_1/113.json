@@ -1,0 +1,26 @@
+{
+	"body": [
+		"I wasn’t going to be available all the time. If she didn’t realize that, she was going to have to find someone else… Actually, I had no exactly how long you were supposed to be available for someone, if you cared about them.",
+		"Maybe I shouldn’t date.",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Whatever.",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "114",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

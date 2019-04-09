@@ -1,0 +1,27 @@
+{
+	"body": [
+		"Maybe she was mad at me. Hell, maybe I deserved it. The people I kept in touch with were always based on how close-by they were rather than who they were, and by the end of last year I would spent nights sitting around doing nothing in my neighbor’s dormroom before even thinking about Grace.",
+		"I was starting to remember more when as I thought  about it. She’d tried to set things up a couple of times, but I told her I was busy, which was kind of true. No, actually it was a total lie. I felt my jaw clench when I envisioned her mentioning all the times I’d flaked on her. One word to set her off, and she would start spilling everything out like opening a cabinet crammed with fine china.",
+		"But I needed to focus on getting the monologue read before she returned.",
+		"Picking up her paper loosely, I was hit again by the brute force of the its length. I already knew what recommendation number one would be: make it shorter. My monkey brain shouldn’t have had that much trouble looking at it. As my eyes ran down the length of the page, I suddenly found myself halted at a particular spot.",
+		"...",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "Was that my name?",
+				"toOutsideSnippet": false,
+				"nextSnippet": "211",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

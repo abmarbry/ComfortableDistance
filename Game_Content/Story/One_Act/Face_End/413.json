@@ -1,0 +1,37 @@
+{
+	"body": [
+		"Suddenly, it was a battle of who would speak first. We both knew she was never going to win it. She was a talker by nature, anxious when someone wasn’t saying something no matter who it was. Pushing her hair behind her ears, she finally had the audacity to speak.",
+		"\"So, I’m free on Friday.\"",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "\"Good for you, you fucking creep.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "415",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"response": "C"
+				}
+			},{
+				"id": "1",
+				"name": "\"I don’t understand you, Grace.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "414",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"response": "B"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

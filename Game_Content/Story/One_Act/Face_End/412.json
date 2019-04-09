@@ -1,0 +1,49 @@
+{
+	"body": [
+		"Her eyes became as wide as I’d ever seen them, \"Excuse me?\"",
+		"\"Yeah,\" I said lightly, trying to hide my discomfort, \"I think mine has a lot more errors than yours does, and you’re normally better at editing than I am.\"",
+		"For a couple of seconds, she couldn’t do anything but just stare at me, her mind clearly racing. When she was done, she furrowed her brow, \"Are you serious? That’s really the only thing you want to do?\"",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>",
+		"3) <CHOICE(2)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "\"Yeah. I’ve got to see my girlfriend soon anyway.\" I said, winking at the word 'girlfriend.'",
+				"toOutsideSnippet": false,
+				"nextSnippet": "416",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"cheeky" : "true"
+				}
+			}, {
+				"id": "1",
+				"name": "\"Why wouldn’t I?”\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "416",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"cheeky" : "false"
+				}
+			} , {
+				"id": "2",
+				"name": "\"Oh. It seems like you do know what you did was stupid.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "415",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"response" : "B"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

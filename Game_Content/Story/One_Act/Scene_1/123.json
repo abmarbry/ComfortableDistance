@@ -1,0 +1,27 @@
+{
+	"body": [
+		"\"Not until they start serving PBR.\"",
+		"\"They don’t serve urine here.\" She joked with a half-smile, but her voice cracked on ‘urine.’",
+		"\"PBR isn’t urine!\" I commanded, leaning back in my chair, but she had already turned away to leave.",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "What was up with her?",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "210",
+				"nextScene" : "Scene_2",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false	
+	}
+}

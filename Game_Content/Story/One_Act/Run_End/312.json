@@ -1,0 +1,69 @@
+{
+	"body": [
+		"I couldn’t help but turn at the sound of my name. Her voice had wavered as she spoke. Grace stood with <VARIABLE(tea)> her body shot enough with adrenaline for even me to notice. Her expression was twisted with so many emotions as her now-bright-red face looked right at me: despair, shock, helplessness before her crumbling confidence.",
+		"She must have thought I would love it. She must have thought that maybe destiny had brought us together, that this would be the day that some piss poor chapter of her life would finally end.",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>",
+		"3) <CHOICE(2)>",
+		"4) <CHOICE(3)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "\"Oh. I forgot something.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "313",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"response" : "A"
+				}
+			},{
+				"id": "1",
+				"name": "\"I’ve got to go talk to my girlfriend real quick.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "313",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"response": "B"
+				}
+			},{
+				"id": "2",
+				"name": "\"Sorry, Grace. The answer is no.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "314",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"savage" : "false"
+				}
+			},{
+				"id": "3",
+				"name": "\"You're disgusting.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "314",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"savage": "true"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "tea",
+				"returnValue": false,
+				"options": {
+					"true": "two drinks in her hands,",
+					"false": "a drink in her hands,"
+				}
+			}
+		]
+	}
+}

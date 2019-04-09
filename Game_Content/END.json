@@ -1,0 +1,23 @@
+{
+	"title" : "Path Completed",
+	"subtitle": " ",
+	"body": [
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Return to Start",
+				"toOutsideSnippet" : true,
+				"nextSnippet": "TITLE",
+				"nextScene" : "",
+				"nextAct" : "",
+				"consequences": {}
+		}]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

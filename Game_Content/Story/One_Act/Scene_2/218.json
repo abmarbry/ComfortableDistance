@@ -1,0 +1,35 @@
+{
+	"body": [
+		"I felt frozen to my seat, anger making my hands shake. When I was younger, I used to only cry when I was absolutely furious, and I blinked back tears in my eyes that hadn’t come in <CHOICE(A)> Even in the moment, I couldn’t tell what I was thinking. My mind didn’t produce lucid thoughts, but only covered my eyes in a veil of hot red. My ears filled with static. My hands were suddenly up over my closed eyes, like they were going to suffocate the scalding rage.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+				{
+				"id": "A",
+				"name": "years.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "218A",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "0",
+				"name": "Back.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "214",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+					"readAny": "true"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

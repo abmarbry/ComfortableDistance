@@ -1,0 +1,34 @@
+{
+	"body": [
+		"<VARIABLE(response)>",
+		"Her eyes widened, \"You'll be back?\"",
+		"I tried my best not to cringe. <CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "\"Yeah. Of course.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "315",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "response",
+				"returnValue": false,
+				"options": {
+					"A": "\"Oh. I forgot something.\"",
+					"B": "\"I’ve got to go talk to my girlfriend real quick.\""
+				}
+			}
+		]
+	}
+}

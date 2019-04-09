@@ -1,0 +1,24 @@
+{
+	"title" : "A Comfortable Distance",
+	"subtitle": "By Allison Marbry",
+	"body": [
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Start",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "111",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+		}]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

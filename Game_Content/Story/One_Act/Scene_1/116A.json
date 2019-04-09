@@ -1,0 +1,26 @@
+{
+	"body": [
+		"Back in high school, I asked her she never got acne. She said she did, but that she’d worn makeup pretty much every day I'd seen her. I didn't believe it, but the memory always haunted me. I still couldn't fully understand why she'd put so much effort into something that at least went right over <i>my</i> head.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "116",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

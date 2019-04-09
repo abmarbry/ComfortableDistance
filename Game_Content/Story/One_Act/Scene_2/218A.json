@@ -1,0 +1,24 @@
+{
+	"body": [
+		"It felt like an accomplishment to not cry. Not when I failed Calculus. Not when my aunt died. Not when a car plowed into mine, giving my friend whiplash. It's not happening now, either.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "Back.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "218",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

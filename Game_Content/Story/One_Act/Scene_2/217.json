@@ -1,0 +1,26 @@
+{
+	"body": [
+		"The person who wrote this was not Grace. The person she was talking about couldn’t be me. This sort of drama didn’t happen to people like me. I didn’t even recognize half of the stuff in here. Where did this come from?",
+		"And why a monologue? Why write it down for some intro theatre assignment where she <i>knew</i> I was going to have to look at it and--what am I supposed to say about it!? This was something that children slid into the slits of lockers, or creeps hid under the windshield wipers of cars after work. I seethed in my chair, my head burning in frustration at the thought. I had no idea exactly what she thought I was going to make of this, but clearly she was living on a planet that wasn’t ours. It certainly wasn’t mine.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "Back.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "214",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+					"readAny": "true"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

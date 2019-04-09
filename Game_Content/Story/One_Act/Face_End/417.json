@@ -1,0 +1,41 @@
+{
+	"body": [
+		"\"I’m sorry Grace. The answer is no.”",
+		"\"Oh it’s okay,” She said it so quickly it sounded like one word, straightening her back upright, \"That’s what I thought you were going to say. I don’t feel that way anymore. I was just getting it out of my system. I’m actually interested in someone--”",
+		"\"Alright,” I raised my voice to cut her off, \"Great.”",
+		"\"Great.” She parroted. Then, after a long pause of her looking at anything except for me, \"Anything else?”",
+		"\"...You should probably change the name in the monologue before you turn it in.” I squinted again at the paper, \"Maybe mention Beth more.”",
+		"She took the paper from me, leaning across the table with a tense expression and hands that were just slightly trembling, \"See you Monday, then.”",
+		"Before I could react, she stood up, turning towards the entrance, \"Wait a second,” I started, unsure of what I would have said next.",
+		"She wouldn’t turn her head around an inch. I followed her with me eyes as she left, pushing the door hard enough for it to slam into the glass wall. <VARIABLE(sarah)>",
+		"Maybe then I'd be a more <CHOICE(0)> away."
+
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "comfortable distance",
+				"toOutsideSnippet": true,
+				"nextSnippet": "END",
+				"nextScene": "",
+				"nextAct": "",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "sarah",
+				"returnValue": false,
+				"options": {
+					"true": "As she left, I swore I saw the outline of Sarah slipping past her into the open doorway, peering around the area aimlessly. I couldn’t handle it, not now. Slipping my laptop into my bag, I retreated deeper into the guts of the library.",
+					"false": "In that moment, I imagined that she kept walking until dawn, where she would be far beyond the city and farther away from me."
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"body": [
+		"Some were staring at what must have been an animated performance by me. Did Grace see me? Wait, I reminded myself that I didn't care.",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "Back.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "219",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

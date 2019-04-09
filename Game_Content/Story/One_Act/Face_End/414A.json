@@ -1,0 +1,26 @@
+{
+	"body": [
+		"It was hard to tell if that was true. I had never thought about it until now. There were blurry memories of Grace chasing him down every once in a while after class, unprompted messages from her on a Sunday evening, an excited look in her eyes when she'd see you driving down the street. He'd never thought about those moments until now, and it was hard to draw back what actually happened.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "414",
+				"nextScene" : "Face_End",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

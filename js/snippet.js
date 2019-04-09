@@ -29,8 +29,12 @@ Snippet.prototype.add = function(string){
 	this.htmlStrings.push(string);
 }
 
-Snippet.prototype.addBreak = function(){
-	this.htmlStrings.push("<br><br>");
+Snippet.prototype.startParagraph = function(){
+	this.htmlStrings.push("<p>");
+}
+
+Snippet.prototype.endParagraph = function(){
+	this.htmlStrings.push("</p>");
 }
 
 

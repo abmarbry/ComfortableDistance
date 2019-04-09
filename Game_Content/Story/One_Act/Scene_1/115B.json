@@ -1,0 +1,27 @@
+{
+	"body": [
+		"Was it rude that I didn’t really care what her life had been like?",
+		"Okay, that wasn't what I meant. There was just always something going on with her lately: some class, a fight, her woe-is-me luck. I didn't want her to be miserable, but I was the last person that a person wanting comfort should talk to. I didn't know what to say. I didn't even want to know what to say. I always just watched them, and, if it was really bad, apologize like I'd done it.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

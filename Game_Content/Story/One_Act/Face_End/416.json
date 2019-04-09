@@ -1,0 +1,35 @@
+{
+	"body": [
+		"<VARIABLE(cheeky)>",
+		"The cogs of her mind began turning, and then, as she picked the dead skin off of her thumb, it seemed that there was a moment where she realized. This was my way out. This was my free pass. My kind no. I had sacrificed getting closure on the strange way that her mind had come to the conclusion it did, but she would never know what exactly I thought about her last great attempt.",
+		"She slicked back her hair, some foundation sneaking into the roots of her hair as she did so. \"Okay,” She said, \"Let’s look at <CHOICE(0)>"
+
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "yours.\"",
+				"toOutsideSnippet": true,
+				"nextSnippet": "END",
+				"nextScene": "",
+				"nextAct": "",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "cheeky",
+				"returnValue": false,
+				"options": {
+					"true": "\"Yeah. I’ve got to see my girlfriend soon anyway,\" At that, her face turned bright red.",
+					"false": "\"Why wouldn't I?\""
+				}
+			}
+		]
+	}
+}

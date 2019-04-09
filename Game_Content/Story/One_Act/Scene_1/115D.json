@@ -1,0 +1,27 @@
+{
+	"body": [
+		"It started with, \"I like being an oboe player. My favorite part is the concerts.\"",
+		"I squinted at the line. Why was it so bad? What did normal people do to fix stuff like that?",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

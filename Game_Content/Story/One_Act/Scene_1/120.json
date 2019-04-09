@@ -1,0 +1,40 @@
+{
+	"body": [
+		"\"Are you okay?\"",
+		"\"What?\" She asked sharply. She tried to stand up straighter, but as it did her expression made it seem that she was a wrong move away from exploding, \"Why do you ask?\"",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "\"Nothing. Nevermind.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "121",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"response": "A"
+				}
+			},
+			{
+				"id": "1",
+				"name": "\"You’re acting different.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "121",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"response": "B"
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"body": [
+		"I pushed through the door and burst out into the night before she could manage another sound. As soon as I was out, I took in a deep breath of the night air as I fled, with the smell of humidity and buzz of the night insects engulfing me. Briefly turning around to see if she followed me, I saw no one. I was free.",
+		"<VARIABLE(sarah)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "waving",
+				"toOutsideSnippet": false,
+				"nextSnippet": "316",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "1",
+				"name" : "Grace's number.",
+				"toOutsideSnippet": true,
+				"nextSnippet": "END",
+				"nextScene": "",
+				"nextAct": "",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "sarah",
+				"returnValue": false,
+				"options": {
+					"true": "As I slowed my pace, I saw someone <CHOICE(0)>  me down from a distance.",
+					"false": "When I finally made it to my car, I slammed the front door, locked it, and leaned back in my seat until I slumped down, exhausted. Opening my eyes to look out of the water-stained front window, I saw only a hint of the library in the distance. That reminded me to take out my phone, go to my contacts, and block <CHOICE(1)>"
+				}
+			}
+		]
+	}
+}

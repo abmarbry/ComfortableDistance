@@ -1,0 +1,71 @@
+{
+	"body": [
+		"The entire <CHOICE(A)> was silent except for the slow ticking of the clock, and my phone that I was about to throw out the window. I’d said yes to a third date about ten minutes ago, and already she’d sent me what felt like a dozen responses in a torturous rapid fire. Though I asked her out for a number of reasons, the most important one was because <CHOICE(B)> didn’t seem clingy. Now, she must have wanted to know where I was right at that second.",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>",
+		"3) <CHOICE(2)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "A",
+				"name": "library",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "111A",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "B",
+				"name": "Sarah",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "111B",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "0",
+				"name": "I responded quickly, \"I’m at the library right now.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "112",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"sarah": "true"
+				}
+			},
+			{
+				"id": "1",
+				"name": "I put my phone in my pocket.",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "113",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"sarah": "false"
+				}
+			},
+			{
+				"id": "2",
+				"name": "I purposefully open her messages, <i>then</i> put my phone away.",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "112",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"sarah": "false"
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

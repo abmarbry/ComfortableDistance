@@ -1,0 +1,43 @@
+{
+	"body": [
+		"I couldn’t bear to see her, even if I would never figure out why exactly she had done this. I slapped my laptop down, shoving it into my backpack by my feet before haphazardly half-zipping it up. I left the paper there. I had to go.",
+		"I glanced at the coffee shop one last time, but didn’t see her anywhere nearby. Adjusting my backpack mid-stride, I pivoted down the main hallway, my eyes locked on the main entrance. I couldn’t manage to breathe, picking up the pace in turn like I was on the edge of passing out. I looked past the blurry front desk, so close to the crisp night--",
+		"<VARIABLE(tea)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "\"Cameron,",
+				"toOutsideSnippet": false,
+				"nextSnippet": "312",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "1",
+				"name": "Cameron!",
+				"toOutsideSnippet": false,
+				"nextSnippet": "312",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "tea",
+				"returnValue": false,
+				"options": {
+					"true": "<CHOICE(0)> I got your tea!\"",
+					"false": "\"Hey, <CHOICE(1)> \""
+				}
+			}
+		]
+	}
+}

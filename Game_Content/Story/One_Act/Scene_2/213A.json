@@ -1,0 +1,36 @@
+{
+	"body": [
+		"It kept going:",
+		"\"...and when we’re together she/you--\" I squinted; it was written exactly like that, \"--act like I’m the only person in the world and when you leave you won’t answer my messages and you won’t look my way and you just leave me feeling confused. Do you know how long I think about the confusing, contradicting things you do? Do you care or don’t you?\"",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "I kept reading.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "213B",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "1",
+				"name": "I stopped.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "214",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

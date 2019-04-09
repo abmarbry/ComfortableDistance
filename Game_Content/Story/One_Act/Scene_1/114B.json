@@ -1,0 +1,26 @@
+{
+	"body": [
+		"I could tell they were making something by the hard TAP TAP TAP of the little espresso widget hitting the counter. They should've sound proofed that room, or just not built it at all.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "114",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

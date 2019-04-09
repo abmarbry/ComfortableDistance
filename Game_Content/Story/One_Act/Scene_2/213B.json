@@ -1,0 +1,37 @@
+{
+	"body": [
+		"It kept going:",
+		"\"...and when we’re together she/you--\" I squinted; it was written exactly like that, \"--act like I’m the only person in the world and when you leave you won’t answer my messages and you won’t look my way and you just leave me feeling confused. Do you know how long I think about the confusing, contradicting things you do? Do you care or don’t you?\"",
+		"\"...We’d sit right next to each other and laugh and whisper so much that the people around us got mad. You must have known I wouldn’t actually watch the movie. How many times have I told you I hate horror stuff! No, I saw on the screen you and I owning an apartment together high above the city where neither of us wanted kids, except of course for maybe a fluffy fat cat like the one your mom...\"",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "I kept reading.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "213C",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "1",
+				"name": "I stopped.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "214",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"body": [
+		"Everything that had happened to me since we'd last spoken:",
+		"1) Moved from Unranked to Iron 5 in Guild of Gods",
+		"2) Got a low B in my first microbiology test by drawing a smiling microscope with a thumbs-up extending from the stage.",
+		"3) Watched her friend Graham try to snort coke off of a porch balcony at a house party, only for it to blow away in the wind.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

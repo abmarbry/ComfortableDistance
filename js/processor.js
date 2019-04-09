@@ -6,9 +6,10 @@ Processor.prototype.translate = function(json){
 	var body = json.body;
 	var bodyPos = 0;
 
-	while(bodyPos < body.length){	
+	while(bodyPos < body.length){
+		Processor.snippet.startParagraph();
 		Processor.processString(json, body[bodyPos]);
-		Processor.snippet.addBreak();		
+		Processor.snippet.endParagraph();		
 		bodyPos++;
 	}
 	
@@ -16,7 +17,9 @@ Processor.prototype.translate = function(json){
 };
 
 Processor.prototype.handleChoice = function(consequences){
-	Processor.state.add(consequences);
+	if( Object.keys(consequences).length > 0){
+		Processor.state.add(consequences);
+	}
 }
 
 Processor.prototype.outsideDataToHtml = function(title, subtitle){
@@ -68,7 +71,6 @@ function Processor (){
 		//TO DO LATER: Handle if there's a choice / variable in the body, but none in the actual JSON
 		if(Processor.isChoiceOrVariable(word)){
 			var id = Processor.findInnerID(word);
-			
 			if(Processor.isChoice(word)){
 				
 				var choiceData = Processor.findJSONContent(json.choices.content, id);
@@ -78,6 +80,7 @@ function Processor (){
 				Processor.snippet.addHtmlChoice(choice.getNextSnippetData(), choice.getConsequences(), choice.getIsOutside(), choice.getBody());
 			}
 			else if (Processor.isVariable(word)){
+				
 				var value = Processor.state.getValue(id);
 				var variableData = Processor.findJSONContent(json.variables.content, id);
 				var body = Processor.processVariable(variableData, value);
@@ -113,6 +116,7 @@ function Processor (){
 	 
 	 
 	Processor.isChoiceOrVariable = function(word){
+		//TO DO: Determine if there's punctuation at the end and handle that separately
 		//TO DO SOON PLEASE: possible fix somewhere for splitting a word if there's a \t or something at the end
 		var variable;
 		
@@ -142,13 +146,27 @@ function Processor (){
 	
 	Processor.findJSONContent = function(data, id){
 		//TO DO LATER: inefficient, iterates through all choices & doesn't account for name not existing
+
 		var correct;
+		var found = false;
+		var pos = 0;
+		while(!found && pos < data.length){
+			if(data[pos].id === id){
+				correct = data[pos];
+				found = true;
+			}
+			else{
+				pos++;	
+			}
+		}
+		return correct;
+		/*
 		$.each(data, function(key, value){
 			if(value.id === id){
 				correct = value;
 			}
 		});
-		return correct;
+		return correct;*/
 	}
 	
 };
@@ -169,7 +187,7 @@ WordFetcher.prototype.next = function(){
 	var string = this.string;
 	
 	while(!wordFound && pos < string.length) {
-		
+		//TO DO: Infinite loop bug if string ends in space?
 		var c = string.charAt(pos);
 		if(c === ' '){
 			pos++;

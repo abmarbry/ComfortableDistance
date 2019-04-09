@@ -1,0 +1,36 @@
+{
+	"body": [
+		"She took in a deep breath. <VARIABLE(lie)>",
+		"She turned around before I had a chance to respond, moving as quickly as I’d ever seen her. Except, instead of walking up to the counter she went past it, to where the new restrooms were. Someone waved at her, but she ignored it completely.",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "This was going to be a long hour.",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "210",
+				"nextScene" : "Scene_2",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "lie",
+				"returnValue": false,
+				"options": {
+					"true": "\"Please don’t act stupid, Cameron.\" It wasn’t said angrily. In fact, it was said as methodically as I had ever heard from her.",
+					"false": "\"I’ll talk to you in a couple of minutes.\""
+				}
+			}
+		]	
+	}
+}

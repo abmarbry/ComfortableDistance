@@ -1,0 +1,60 @@
+{
+	"body": [
+		"<VARIABLE(response)>",
+		"\"What do you mean?\" She smiled humorlessly.",
+		"\"Grace,\" I snapped, gesturing towards the paper, \"Why did you write this?\"",
+		"She took a deep breath, eyes darting around the room like she didn’t understand the question, \"It--It should be obvious why.\"",
+		"\"It’s really not,\" I countered as gently as I could, \"Why something for class? Why here? Why after we’ve known each other for so long?\"",
+		"She pushed her hair out of her face, clearly straining to keep her expression neutral. She wasn’t expecting this, \"It just happened recently. I didn’t know how much I wanted to be near you--\" I couldn’t stop myself from cringing, \"Until I couldn’t see you anymore. And I didn’t know what else to do. You have never been able to hang out--I’ve been <CHOICE(A)> for months!\" Her voice was growing louder, drawing attention, \"This is the only time we’ve had to talk alone in how long, exactly?\"",
+		"She was nothing if not genuine. Too genuine, really. There was still hope in her eyes, like this was the necessary step before her When she finished talking, the only thing I could hear was the persistent tapping of the espresso machine.",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "A",
+				"name": "trying to tell you",
+				"toOutsideSnippet": false,
+				"nextSnippet": "414A",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "0",
+				"name": "\"I’m sorry, Grace,\" I finally said, \"The answer is no.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "417",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "1",
+				"name": "My sympathy and patience was gone, \"You’re delusional.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "415",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"response" : "D"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "response",
+				"returnValue": false,
+				"options": {
+					"A": "\"Why?\"",
+					"B": "\"I don't understand you, Grace.\""
+				}
+			}
+		]
+	}
+}

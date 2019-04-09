@@ -1,0 +1,75 @@
+{
+	"body": [
+		"I slapped the paper down on the desk. It was hard to focus, there were so many different things clouding my vision as they circled around my mind. After the first intense shock, it was hard to explain exactly how I felt.",
+		"I felt...",
+		"",
+		"<CHOICE(0)>",
+		"<CHOICE(1)>",
+		"<CHOICE(2)>",
+		"<CHOICE(3)>",
+		"<VARIABLE(readAny)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "disgusted.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "215",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "1",
+				"name": "confused.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "217",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "2",
+				"name": "angry.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "218",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "3",
+				"name": "flattered.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "216",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "4",
+				"name": "...Wait a second.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "219",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "readAny",
+				"returnValue": false,
+				"options": {
+					"true": "<CHOICE(4)>",
+					"false": ""
+				}
+			}
+		]
+	}
+}

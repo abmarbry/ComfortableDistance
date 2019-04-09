@@ -2,6 +2,10 @@
     font-family: Verdana;
 }
 
+p {
+	text-indent: 5%;
+}
+
 .padding{
     padding: 6rem;
     line-height: 2rem;

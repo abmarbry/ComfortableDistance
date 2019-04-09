@@ -1,0 +1,27 @@
+{
+	"body": [
+		"There really were a lot of things I liked about her. She was short. She laughed at everything. She had dimples when she smiled.",
+		"But, none of that mattered if she was going to ask me about baby names before we got to a month.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "111",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

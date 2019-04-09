@@ -1,0 +1,27 @@
+{
+	"body": [
+		"Cam--No, Camden. There was no way she wrote that and didn’t think of my name. The entire phrase was:",
+		"\"You’re so distracting. I can’t tell the Professor what lighting does to change the mood of the film because I’m reliving the past three hours of my life, checking over and over again to see if Camden as responded to what I said, my message in a bottle.\"",
+		"I felt my eyes uncontrollably flicker. My muscles locked into place as my eyes went straight to the <CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "top.",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "212",
+				"nextScene" : "Scene_2",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"readAny": "false"
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

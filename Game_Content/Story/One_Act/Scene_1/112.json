@@ -1,0 +1,46 @@
+{
+	"body": [
+		"What a massive wall of text she’d left. I couldn’t even tell what she was talking about until I went to the very top:",
+		"\"have u seen the new trailer for mmsr???\" That stood for Metalmask: The Slow Rust.",
+		"\"they brought back Symphony im SHRIEKING i knew they would\"",
+		"\"but why tf SPOIL it in the\"",
+		"\"T\"",
+		"\"R\"",
+		"\"A\"",
+		"\"I\"",
+		"\"LL\"",
+		"\"EE\"",
+		"\"RRRRRRR\"",
+		"\"RRRRRRR--\"",
+		"I couldn't hande it. At least not then.",
+		"<VARIABLE(sarah)>",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "That should do for now.",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "114",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {}
+		}]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "sarah",
+				"returnValue": false,
+				"options": {
+					"true": "I wrote to her, \"I’m studying. We can talk later.\"",
+					"false": "I closed my eyes and let out a deep sigh as the screen shut to black."
+				}
+			}
+		]
+	}
+}

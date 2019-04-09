@@ -1,0 +1,26 @@
+{
+	"body": [
+		"The different buildings were all around the same area about two miles away. They were massive and concrete on the outside, shaped like they should hold an office building. The rooms were spacious, but they had concrete brick walls painted white and matching tile floor. Some people liked calling their rooms solitary instead. But it wasn't that bad, and I didn't have to pay for toilet paper.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "114",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

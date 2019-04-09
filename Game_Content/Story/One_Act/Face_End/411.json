@@ -1,0 +1,74 @@
+{
+	"body": [
+		"I took a deep breath, accepting my fate. Now that I knew I was going to have to talk to her, I was wondering what was taking her so long. I turned back to the bar of the coffee shop, but if she was there I couldn’t see her. Suddenly, I remembered that I had my own monologue to worry about. I still had to get a grade for the thing. Maybe that was how I could escape: taking care of my mess first.",
+		"<VARIABLE(lied)>",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>",
+		"3) <CHOICE(2)>",
+		"4) <CHOICE(3)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "\"...So, do you mind if we go over mine first? I’ve got to head out soon.\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "412",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "1",
+				"name": "I waited for her to speak.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "413",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "2",
+				"name": "As I looked at her, I was unable to keep the question away: \"<i>Why</i>?\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "414",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"response" : "A"
+				}
+			},{
+				"id": "3",
+				"name": "Now wasn’t the time to spare her feelings: \"What the fuck is wrong with you?\"",
+				"toOutsideSnippet": false,
+				"nextSnippet": "415",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+					"response" : "A"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "lied",
+				"returnValue": false,
+				"options": {
+					"true": "By the time she returned, she had a wide smile across her face. Clearly she’d been thinking about how this was going to go. <VARIABLE(tea)>",
+					"false": "When she finally returned, she came up to me from behind, nearly scaring me to death. Not only that, but it didn’t make sense. The coffee shop was in front of me, like she didn't want me to see her. <VARIABLE(tea)>"
+				}
+			},{
+				"id": "tea",
+				"returnValue": false,
+				"options": {
+					"true": "As she sat down, she slid the tea my way like some sort of peace offering. Shit. I forgot about that.",
+					"false": ""
+				}
+			}
+		]
+	}
+}

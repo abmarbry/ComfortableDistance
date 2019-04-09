@@ -1,0 +1,56 @@
+{
+	"body": [
+		"\"Oh. I can read it now.\"",
+		"She stood upright, straightening cardigan, \"No! That’s fine.\"",
+		"\"Uh.\" I furrowed my brow, \"Okay.\"",
+		"\"I’m getting a chai tea. You can read it then. You really haven’t read it?\"",
+		"\"Why would I lie about that?\"",
+		"\"I was just double-checking. Do you want anything?\"",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>",
+		"3) <CHOICE(2)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "\"Not until they start serving PBR.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "123",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"tea":"false"
+				}
+			},
+			{
+				"id": "1",
+				"name": "\"I'll take an Earl Grey.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "122",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"tea" : "true"
+				}
+			},
+			{
+				"id": "2",
+				"name": "\"Are you okay?\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "120",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"tea" : "false"
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

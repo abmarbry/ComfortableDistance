@@ -1,0 +1,25 @@
+{
+	"body": [
+		"I was in a nightmare, where everything makes you scream or cry or get knots in your gut. My eyes flickered on the dull white computer screen in front of me, trying to regain focus. I had so many thoughts cutting in and out of my head that it was hard to get a solid grasp on any one of them. I remember the smell of Grace’s house, and I remember passing notes when we first learned how to swear that just had the word bitch written inside, written over and over again. My mom had suggested we start dating only one time. It was while I had the flu, and after she said it I turned my head to the side and vomited all over the couch.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "Back.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "214",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+					"readAny": "true"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

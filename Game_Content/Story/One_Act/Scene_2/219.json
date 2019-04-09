@@ -1,0 +1,62 @@
+{
+	"body": [
+		"<VARIABLE(lied)>",
+		"I leaned back, looking around at the bustling groups of <CHOICE(A)> surrounding me. Most were minding their own business, and I couldn’t help but wonder if this was something that had happened to all of them. A part of me wanted to ask someone for help. I didn’t have time.",
+		"",
+		"<CHOICE(0)>",
+		"<CHOICE(1)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "A",
+				"name": "students",
+				"toOutsideSnippet": false,
+				"nextSnippet": "219A",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "0",
+				"name": "I had to get out of here.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "311",
+				"nextScene": "Run_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			},{
+				"id": "1",
+				"name": "I couldn’t leave now.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "411",
+				"nextScene": "Face_End",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "lied",
+				"returnValue": false,
+				"options": {
+					"true": "I said I had already read it. <VARIABLE(saidLiked)>",
+					"false": "She was standing in line, waiting for me to read this. She thought she was going to sit back down and I would do what, exactly?"
+				}
+			},
+			{
+				"id": "saidLiked",
+				"returnValue": false,
+				"options": {
+					"true": "I said I liked it!",
+					"false": "I showed up in the first place!"
+				}
+			}
+		]
+	}
+}

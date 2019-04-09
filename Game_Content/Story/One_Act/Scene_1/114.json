@@ -1,0 +1,47 @@
+{
+	"body": [
+		"After I put away my phone, I looked up to observe the cramped landscape of books before me, framed by the backdrop of a massive window. The outside was black enough to see my own distant reflection, but I could just barely see the brightly-lit concrete path that students normally took when they wanted to go back to the <CHOICE(A)> This time of the year, dresses and shorts were appropriate even after the sun set.",
+		"Inside, where my fingers sat lifelessly beside my ancient laptop, the normal old-book smell I was used to was replaced by whatever the employees of the newly-placed <CHOICE(B)> were burning. Steamed milk, maybe. It was going to drive me crazy.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "A",
+				"name": "dorms.",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "114A",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "B",
+				"name": "coffee shop",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "114B",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			},
+			{
+				"id": "0",
+				"name": "And where <i>was</i> she?",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

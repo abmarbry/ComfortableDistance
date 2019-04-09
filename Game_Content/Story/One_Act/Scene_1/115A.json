@@ -1,0 +1,26 @@
+{
+	"body": [
+		"Saying \"friend\" used to be a bit of a stretch. She moved to my area the second year of middle school, and became a friend of a friend. After a couple of weeks, she was hanging out with us pretty frequently, but I would never talk to her apart from the group. At least, not until we both decided to go to the same college. She was always one of those people that I was comfortable around, but never excited to see.",
+		"",
+		"<CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "Back",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "115",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

@@ -1,0 +1,65 @@
+{
+	"body": [
+		"<VARIABLE(says)>",
+		"\"Really?\"",
+		"\"Uh.\" I raised a brow, \"Yes?\"",
+		"Grace took in a deep breath, then got back a bit of her cheerful smile. \"Okay. Cool. Do you want anything from the shop?\"",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>",
+		"3) <CHOICE(2)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "\"Not until they start serving PBR.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "123",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"tea":"false"
+				}
+			},
+			{
+				"id": "1",
+				"name": "\"I'll take an Earl Grey.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "122",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"tea":"true"
+				}
+			},
+			{
+				"id": "2",
+				"name": "\"Are you okay?\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "120",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"tea":"false"
+				}
+			}
+			
+		]
+	},
+	"variables": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "says",
+				"returnValue": false,
+				"options": {
+					"A": "\"Yeah, great,\" I slid her paper slowly over to my side of the table. \"A lot better than what I--\"",
+					"B": "\"Incredible,\" I slid her paper slowly over to my side of the table. \"I’m going to read it to my children every night before they--\"",
+					"C": "\"You’re getting a tea, right?\" I slid her paper slowly over to my side of the table. \"I’d love to talk about it, but I think we should--\""
+				}
+			}
+		]
+	}
+}

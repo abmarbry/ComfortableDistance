@@ -1,0 +1,54 @@
+{
+	"body": [
+		"I smiled, more at the plan than the question. \"For sure.\"",
+		"Her eyes lit up. \"Oh! What did you think?\"",
+		"",
+		"1) <CHOICE(0)>",
+		"2) <CHOICE(1)>",
+		"3) <CHOICE(2)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [
+			{
+				"id": "0",
+				"name": "\"Yeah, great. A lot better than what I wrote.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "119",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"saidLiked" : "true",
+					"says": "A"
+				}
+			},
+			{
+				"id": "1",
+				"name": "\"Incredible. I’m going to read it to my children every night before they go to sleep.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "119",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"saidLiked" : "true",
+					"says": "B"
+				}
+			},
+			{
+				"id": "2",
+				"name": "\"You’re getting a tea, right? I’d love to talk about it, but I think we should talk about it when we’re all settled.\"",
+				"toOutsideSnippet" : false,
+				"nextSnippet": "119",
+				"nextScene" : "Scene_1",
+				"nextAct" : "One_Act",
+				"consequences": {
+					"saidLiked" : "false",
+					"says": "C"
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

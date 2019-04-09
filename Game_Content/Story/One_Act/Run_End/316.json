@@ -1,0 +1,29 @@
+{
+	"body": [
+		"It was Sarah.",
+		"She got an inch away from me despite my flinching, an oblivious smile on her face as she turned around so that she was by my side as I continued walking, \"Cam! I thought you were going to be in the Bert for a while.\"",
+		"I clenched my fist without realizing it, unable to look directly at her. I had no idea what to say, \"Can we talk in the car?\"",
+		"\"What?\"",
+		"\"Follow me. We need to talk in the car.\"",
+		"The joy bled from her face, \"Is it something bad?\"",
+		"Bad. That word struck me for some reason. The second I heard it, the thought came to me that maybe I really was a bad person, especially in light of everything. I felt a twist of guilt in my gut, and I came to a stop as I finally turned towards Sarah.",		
+		"I had no idea if I was going to tell her everything that happened, or to never see me <CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "again.",
+				"toOutsideSnippet": true,
+				"nextSnippet": "END",
+				"nextScene": "",
+				"nextAct": "",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}

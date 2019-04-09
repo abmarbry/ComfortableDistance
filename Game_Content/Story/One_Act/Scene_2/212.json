@@ -1,0 +1,23 @@
+{
+	"body": [
+		"\"It’s difficult to explain it, Beth,\" Who was Beth? Was that a real person, too? \"There’s a giant pit where my heart used to be and it’s difficult for it to stop hurting. If I had to put it in a single word, it would be \"annoying,\" second place \"persistent,\"\"  I skimmed farther, \"...It’s been a long and torturous war between two split sides of myself, thinking of ways to talk to her, to find her again amidst the sea of random faces moving like shot arrows across this city.\"",
+		"Oh God, if I could have disappeared in that moment. I grabbed tightly onto the clothes at my ribcage, gripping it like a stress ball as my stomach turned into <CHOICE(0)>"
+	],
+	"choices": {
+		"isPopulated": true,
+		"content": [{
+				"id": "0",
+				"name": "knots.",
+				"toOutsideSnippet": false,
+				"nextSnippet": "213A",
+				"nextScene": "Scene_2",
+				"nextAct": "One_Act",
+				"consequences": {
+				}
+			}
+		]
+	},
+	"variables": {
+		"isPopulated": false
+	}
+}
