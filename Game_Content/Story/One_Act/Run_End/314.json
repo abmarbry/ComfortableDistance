@@ -2,7 +2,7 @@
 	"body": [
 		"<VARIABLE(savage)>",
 		"<VARIABLE(lied)>",
-		"I clenched my teeth and envisioned a future where I was talking to her, discovering where the truth was supposed to be, piecing her mess back together until we could both pretend it didn’t happen. That was I should do: make the gentler of the two mistakes. But, I wasn’t made for this kind of attention. It wasn’t my job to help her. That close to freedom, I couldn’t begin trying to <CHOICE(0)> myself"
+		"I clenched my teeth and envisioned a future where I was talking to her, discovering where the truth was supposed to be, piecing her mess back together until we could both pretend it didn’t happen. That was I should do: make the gentler of the two mistakes. But, I wasn’t made for this kind of attention. It wasn’t my job to help her. That close to freedom, I couldn’t begin trying to <CHOICE(0)> myself."
 	],
 	"choices": {
 		"isPopulated": true,
