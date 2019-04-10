@@ -2,7 +2,9 @@
 	"title" : "Path Completed",
 	"subtitle": " ",
 	"body": [
-		"<CHOICE(0)>"
+		"<CHOICE(0)>",
+		"<CHOICE(1)>",
+		"<CHOICE(2)>"
 	],
 	"choices": {
 		"isPopulated": true,
