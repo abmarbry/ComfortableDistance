@@ -22,7 +22,7 @@
 		"content": [
 			{
 				"id": "0",
-				"name": "That should do for now.",
+				"name": "I thought that should do for now.",
 				"toOutsideSnippet" : false,
 				"nextSnippet": "114",
 				"nextScene" : "Scene_1",

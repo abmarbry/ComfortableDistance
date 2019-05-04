@@ -1,6 +1,6 @@
 {
 	"body": [
-		"The entire <CHOICE(A)> was silent except for the slow ticking of the clock, and my phone that I was about to throw out the window. I’d said yes to a third date about ten minutes ago, and already she’d sent me what felt like a dozen responses in a torturous rapid fire. Though I asked her out for a number of reasons, the most important one was because <CHOICE(B)> didn’t seem clingy. Now, she must have wanted to know where I was right at that second.",
+		"The entire <CHOICE(A)> was silent except for the slow ticking of the clock, and my phone that I was about to throw out of the window. I’d said yes to a third date about ten minutes ago, and already she’d sent me what felt like a dozen responses in a torturous rapid fire. Though I asked her out for a number of reasons, the most important one was because <CHOICE(B)> didn’t seem clingy. Now, she must have wanted to know where I was right at that second.",
 		"",
 		"1) <CHOICE(0)>",
 		"2) <CHOICE(1)>",
@@ -53,7 +53,7 @@
 			},
 			{
 				"id": "2",
-				"name": "I purposefully open her messages, <i>then</i> put my phone away.",
+				"name": "I purposefully opened her messages, <i>then</i> put my phone away.",
 				"toOutsideSnippet" : false,
 				"nextSnippet": "112",
 				"nextScene" : "Scene_1",
